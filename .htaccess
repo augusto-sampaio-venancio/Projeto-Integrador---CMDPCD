@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Redireciona a raiz do projeto para o diretório public
+    RewriteRule ^$ public/ [L]
+    
+    # Redireciona outras requisições para o diretório public se o arquivo/pasta não existir na raiz
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
