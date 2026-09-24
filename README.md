@@ -268,10 +268,8 @@ Atualmente, o sistema encontra-se em desenvolvimento, com foco na estruturação
 # Equipe do Projeto
 
 - Augusto Sampaio Venâncio
-- Elias Gabriel Michelon
 - Lucas Antonio Ribeiro
 - Luhan de Paula Ribeiro
-- Matheus Marques da Silva
 - Samuel Custódio dos Santos
 
 ---
